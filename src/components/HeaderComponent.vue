@@ -5,7 +5,7 @@
             
             <img v-on:click="openMenu" alt="Abrir menu" id="menu-button" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg">
         
-            <div v-on:click="closeMenu" id="menu-overlay" v-if="menuActive"></div>
+            <div v-on:click="closeMenu" id="menu-overlay" v-if="menuActive"></div> 
 
             <div id="menu-items" :class="{active: menuActive}">
                 <img alt="WDEV" id="menu-logo" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/wdev.svg">
