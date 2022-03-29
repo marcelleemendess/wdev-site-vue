@@ -1,10 +1,10 @@
 <template>
     <footer>
-        <a 
+        <router-link 
             class="socialLink" 
             v-for="(socialLink, index) in socialLinks" 
             :key="index"
-            :href="socialLink.link"
+            :to="socialLink.link"
             target="_blank"
         >
             <img 
@@ -12,7 +12,7 @@
             :alt="socialLink.label" 
             :title="socialLink.label"
             >
-        </a>
+        </router-link>
     </footer>
 </template>
 

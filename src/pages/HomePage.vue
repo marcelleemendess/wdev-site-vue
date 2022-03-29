@@ -42,7 +42,7 @@ export default {
 
     @media (min-width:700px) {
         #subscribe {
-            width: 370px;
+            width:
         }
     }
 </style>
